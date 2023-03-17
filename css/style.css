@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    color: brown;
+}
+
+p {
+font-size: 16px;
+}
+
+img {
+    width: 250px;
+  height: 250px;
+  object-fit: cover;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.heading {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.item{
+    padding: 50px;
+    width: 250px;
+}
